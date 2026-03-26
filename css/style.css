@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Helvetica', san-serif;
+}
+
+/* General Styling */
+body{
+  margin: 20px;
+  background-color: #aca;
+  color: #c3c;
+}
+
+a{
+ text-decoration: none;
+ color: #404;
+}
+h1{
+  display: block;
+  text-align: center;
+}
+li{
+  margin-left: 25px;
+}
+/* styling homepage */
+ul:has(.nav){
+  margin: 20px;
+}
+
+.nav{
+  display: inline-block;
+  margin-left: 130px;
+  border: 1px solid #000;
+  padding: 10px;
+}
+img{
+  border: 5px solid grey;
+}
+/* Styling recipies page */
+h2{
+  color: #666;
+  margin-top: 10px;
+}
